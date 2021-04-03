@@ -6,10 +6,11 @@ Section 1 content
 Section 1 content
 Section 1 content
 <!--End of section1-->
-<!--adding section 3-->
+<!--Adding section 3-->
 section3
 section3
 section3section3
 section3
 section3
 section3s
+<!--End of section3-->
