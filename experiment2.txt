@@ -14,6 +14,14 @@ Section 2 content
 Section 2 content
 Section 2 content
 <!--End of section2-->
+<!--Adding section 3-->
+section3
+section3
+section3section3
+section3
+section3
+section3s
+<!--End of section3-->
 <!--Adding Section4-->
 Section 1 content
 Section 1 content
