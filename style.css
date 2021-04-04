@@ -1,0 +1,20 @@
+a:link, a:visited {
+  background-color: #31717c;    /* it gives color to the button(hyperlink) */
+  color: white;            /* sets the color of the link-text (button text) */
+  padding: 14px 25px;       /*This sets the breadth and length and makes the hyperlink a button*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(58, 67, 156);
+}
+
+.header_1{
+    display:block;
+    block-size: 180px;
+    padding: 20px;
+    background-color: rgb(69, 156, 91);
+    text-align: right;
+}
