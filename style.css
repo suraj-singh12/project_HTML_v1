@@ -13,8 +13,29 @@ a:hover, a:active {
 
 .header_1{
     display:block;
-    block-size: 180px;
+    block-size: 140px;
     padding: 20px;
     background-color: rgb(69, 156, 91);
     text-align: right;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
