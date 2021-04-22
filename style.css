@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
+
 a:link, a:visited {
   background-color: #31717c;    /* it gives color to the button(hyperlink) */
   color: white;            /* sets the color of the link-text (button text) */
@@ -41,4 +43,96 @@ div.gallery img {
 div.desc {
   padding: 15px;  
   text-align: center;
+}
+
+body
+{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(0deg,#fff 50%, #21e5f3);    
+    /* Background: blue-white gradient; */
+}
+
+.container
+{
+    display: flex;
+    position: relative;
+    width: auto;
+    overflow: auto;
+    padding: 20px;
+    padding-left: 150px;
+    justify-content:left;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+
+.container .card
+{
+    position: relative;
+    width: 250px;   /* width of the text per container/box */
+    height: 300px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.container .card .content
+{
+    text-align: center;   /* align in center (the cards and content)  */
+    z-index: 2;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.container .card:before
+{
+    content: '';          /* expand width as black card on hower */
+    position: absolute;   /* absolute so comes below  */
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container .card:hover:before
+{
+    background: #000;
+    transform: scaleY(1.15);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,0.2);
+}
+
+/* activated blink on hover */
+.container .card:hover .content
+{
+    color: #fff; 
+}
+.container .card .content h2
+{
+    font-size: 3em;
+}
+.container .card .content p
+{
+    font-size: 0.9em;
+}
+.container .card .content a
+{
+    display: inline-block;
+    margin-top: 15px;
+    /* padding: 5px 10px; */
+    /* background: #262626; */
+    /* color: #fff; */
+    /* text-decoration: none; */
+}
+.container .card:hover .content a
+{
+    background: #2196f3;
+}
+
+.about_sec_img{
+  padding: 20px;
+  padding-left: 80px;
 }
